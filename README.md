@@ -1,6 +1,6 @@
 
-# Hello, I'm realease a little homemade firewall to simply protect a simple Debian VPS / Ubuntu server.
-this works well on ovh server.
+# ⚠️ 🔒 Firewall-AntiDDoS Games.
+Firewall utulisable avec Iptables (Netfilter), sous GNU/Linux Debian/Ubuntu serveur games. Ce Firewall à était créer pour ouvrir vos projets au publique e
 
 # 📁 Install On linux
 
@@ -17,24 +17,22 @@ Command 1 : `vim firewall_testroot`
 * copy config firewall
 [Link Config](https://github.com/BadySmith/Firewall-AntiDDoS-Linux/blob/master/firewall.sh)
 
-Indicator : 
+* Indicator :XXX = select you port | speed looking ctrl + f : XXX
 
-XXX = select you port | speed looking ctrl + f : XXX
+*Command 2 : `chmod 777 ./firewall_testroot`
+*Command 2.1 : `./firewall_testroot`
 
-Command 2 : `chmod 777 ./firewall_testroot`
-Command 2.1 : `./firewall_testroot`
-
-ERROR 1 : Is not run, Verif firewall conf
-ERROR 2 : SERVER CRASHED SSH CLOSED, Restart you vps by pannels admin hosting.
+*ERROR 1 : Is not run, Verif firewall conf
+*ERROR 2 : SERVER CRASHED SSH CLOSED, Restart you vps by pannels admin hosting.
 
 IS OK ? :
 
-Command 3 : `mv firewall_testroot /etc/init.d//firewall`
+*Command 3 : `mv firewall_testroot /etc/init.d/firewall`
 
-Command 4 : `cd /etc/init.d/`
+*Command 4 : `cd /etc/init.d/`
 
-Command 5 : `sudo chmod +x firewall`
+*Command 5 : `sudo chmod +x firewall`
 
-Command 6 : `sudo update-rc.d firewall defaults`
+*Command 6 : `sudo update-rc.d firewall defaults`
 
 Finish, Thanks for reading my post and hope this helped you! ;)
