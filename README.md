@@ -24,8 +24,8 @@ Command 1 : `vim firewall_testroot`
 * Command 2 : `chmod 777 ./firewall_testroot`
 * Command 2.1 : `./firewall_testroot`
 
-* ERROR 1 : Is not run, Verif firewall conf
-* ERROR 2 : SERVER CRASHED SSH CLOSED, Restart you vps by pannels admin hosting.
+ERROR 1 : Is not run, Verif firewall conf
+ERROR 2 : SERVER CRASHED SSH CLOSED, Restart you vps by pannels admin hosting.
 
 IS OK ? :
 
