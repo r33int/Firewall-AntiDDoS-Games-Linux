@@ -45,14 +45,14 @@ iptables -t filter -A OUTPUT -p icmp -j REJECT
 
 # Par IP WHITLIST :
 
-#iptables -t filter -A INPUT -p tcp --dport votreport -s 5.135.249.209 -j ACCEPT
-#iptables -t filter -A INPUT -p tcp --dport votreport -j REJECT
-#iptables -t filter -A OUTPUT -p tcp --dport votreport -j REJECT
+#iptables -t filter -A INPUT -p tcp --dport XXX -s 5.135.249.209 -j ACCEPT
+#iptables -t filter -A INPUT -p tcp --dport XXX -j REJECT
+#iptables -t filter -A OUTPUT -p tcp --dport XXX -j REJECT
 
 # Normal(ssh) :
   
-iptables -t filter -A INPUT -p tcp --dport votreport -j ACCEPT
-iptables -t filter -A OUTPUT -p tcp --dport votreport -j ACCEPT
+iptables -t filter -A INPUT -p tcp --dport XXX -j ACCEPT
+iptables -t filter -A OUTPUT -p tcp --dport XXX -j ACCEPT
 
 # HTTP
 
