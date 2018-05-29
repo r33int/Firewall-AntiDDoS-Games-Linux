@@ -45,9 +45,9 @@ iptables -t filter -A OUTPUT -p icmp -j REJECT
 
 # Par IP WHITLIST :
 
-#iptables -t filter -A INPUT -p tcp --dport 86 -s 5.135.249.209 -j ACCEPT
-#iptables -t filter -A INPUT -p tcp --dport 86 -j REJECT
-#iptables -t filter -A OUTPUT -p tcp --dport 86 -j REJECT
+#iptables -t filter -A INPUT -p tcp --dport votreport -s 5.135.249.209 -j ACCEPT
+#iptables -t filter -A INPUT -p tcp --dport votreport -j REJECT
+#iptables -t filter -A OUTPUT -p tcp --dport votreport -j REJECT
 
 # Normal(ssh) :
   
@@ -155,8 +155,8 @@ iptables -t filter -A INPUT -p udp --dport votreport -j ACCEPT
 
 # QUERY
 
-#iptables -t filter -A OUTPUT -p tcp --dport 1145 -j ACCEPT
-#iptables -t filter -A INPUT -p tcp --dport 1145 -j ACCEPT
+#iptables -t filter -A OUTPUT -p tcp --dport votreport -j ACCEPT
+#iptables -t filter -A INPUT -p tcp --dport votreport -j ACCEPT
 #iptables -t filter -A OUTPUT -p tcp --dport 30033 -j ACCEPT
 #iptables -t filter -A INPUT -p tcp --dport 30033 -j ACCEPT
 
