@@ -10,11 +10,11 @@ Ce Firewall a été tester et approuvé selon moi pour faire de l'hébergement T
 
 stay in the root folder to test the firewall otherwise you can meter your server in danger!
 
-Command 0 : `cd /root`
+* Command 0 : `cd /root`
 
 Tools : vi, vim, nano :
 
-Command 1 : `vim firewall_testroot`
+* Command 1 : `vim firewall_testroot`
 
 * copy config firewall
 [Link Config](https://github.com/BadySmith/Firewall-AntiDDoS-Linux/blob/master/firewall.sh)
