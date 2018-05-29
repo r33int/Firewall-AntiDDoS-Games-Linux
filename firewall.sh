@@ -146,8 +146,8 @@ iptables -A INPUT -p tcp --tcp-flags ALL ALL -m limit --limit 1/h -j ACCEPT
 
 
 # MYSQL
-iptables -t filter -A INPUT -p tcp --dport votreport -j ACCEPT 
-iptables -t filter -A INPUT -p udp --dport votreport -j ACCEPT
+iptables -t filter -A INPUT -p tcp --dport XXX -j ACCEPT 
+iptables -t filter -A INPUT -p udp --dport XXX -j ACCEPT
 
 # TS
 #iptables -t filter -A OUTPUT -p tcp --dport 41144 -j ACCEPT
