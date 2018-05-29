@@ -1,8 +1,10 @@
 
 # ⚠️ 🔒 Firewall-AntiDDoS Games.
-Firewall utulisable avec Iptables (Netfilter), sous GNU/Linux Debian/Ubuntu serveur games. Ce Firewall à était créer pour ouvrir vos projets au publique e
+Firewall utulisable avec Iptables (Netfilter), sous GNU/Linux Debian/Ubuntu serveur games. Ce Firewall à était créer pour ouvrir vos projets au publique.
 
-# 📁 Install On linux
+Ce Firewall a était tester et aprouvé selon moi pour faire de l'hébergement TeamSpeak ainsi que protéger c'est serveurs de jeux.
+
+# 📁 Install On Linux
 
 /!\ WARNING /!\
 
