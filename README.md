@@ -19,7 +19,7 @@ Command 1 : `vim firewall_testroot`
 * copy config firewall
 [Link Config](https://github.com/BadySmith/Firewall-AntiDDoS-Linux/blob/master/firewall.sh)
 
-* Indicator :XXX = select you port | speed looking ctrl + f : XXX
+* Indicator : XXX = select you port | speed looking ctrl + f : XXX
 
 * Command 2 : `chmod 777 ./firewall_testroot`
 * Command 2.1 : `./firewall_testroot`
