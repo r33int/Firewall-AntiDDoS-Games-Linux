@@ -155,8 +155,8 @@ iptables -t filter -A INPUT -p udp --dport XXX -j ACCEPT
 
 # QUERY
 
-#iptables -t filter -A OUTPUT -p tcp --dport votreport -j ACCEPT
-#iptables -t filter -A INPUT -p tcp --dport votreport -j ACCEPT
+#iptables -t filter -A OUTPUT -p tcp --dport XXX -j ACCEPT
+#iptables -t filter -A INPUT -p tcp --dport XXX -j ACCEPT
 #iptables -t filter -A OUTPUT -p tcp --dport 30033 -j ACCEPT
 #iptables -t filter -A INPUT -p tcp --dport 30033 -j ACCEPT
 
