@@ -45,7 +45,7 @@ iptables -t filter -A OUTPUT -p icmp -j REJECT
 
 # Par IP WHITLIST :
 
-#iptables -t filter -A INPUT -p tcp --dport XXX -s 5.135.249.209 -j ACCEPT
+#iptables -t filter -A INPUT -p tcp --dport XXX -s adresseip -j ACCEPT
 #iptables -t filter -A INPUT -p tcp --dport XXX -j REJECT
 #iptables -t filter -A OUTPUT -p tcp --dport XXX -j REJECT
 
